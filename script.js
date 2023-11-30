@@ -2,6 +2,9 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('#main'),
     smooth: true
 });
+Shery.mouseFollower();
+Shery.makeMagnet(".magnet");
+Shery.hoverWithMediaCircle(".hvr", {videos:["0.mp4","2.mp4"]})
 
 gsap.from(".nlink", {
     stagger: .2,
